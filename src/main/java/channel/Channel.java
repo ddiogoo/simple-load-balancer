@@ -8,7 +8,7 @@ import java.util.concurrent.BlockingQueue;
 public class Channel {
     private final int numWorkers;
     private final int numTasks;
-    private BlockingQueue<Integer> channel;
+    private final BlockingQueue<Integer> channel;
 
     public Channel(int numWorkers, int numTasks) {
         this.numWorkers = numWorkers;
