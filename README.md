@@ -1,4 +1,6 @@
 # Channel and Go Routines
+
+## Introduction
 Goroutines are called Threads in Java, in Golang, one Goroutine communicates with another through channels, in this algorithm, we are implementing our own Goroutine and our Channel, using Java, of course our code is more complex and robust compared to simplicity of Golang, but I created a simple prototype because of my proximity to the Java language.
 
 ## Code details
@@ -29,3 +31,5 @@ func main() {
 	}
 }
 ```
+
+As long as our channel continues to receive values, the Thread will never stop executing, it will continue reading data from the channel and printing it to the screen.
